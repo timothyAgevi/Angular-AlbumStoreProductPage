@@ -1,7 +1,9 @@
+import { Track } from './track';
+
 export interface Album {
-    //  type string = name;
-    // type string = releaseDate;  
-    //  type string = coverImage;
-    // type Track[]  = tracks;
+    name:string;
+    releasedate:string;
+    coverImage:string;
+    tracks :Track[];
 
 }

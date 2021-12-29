@@ -6,6 +6,7 @@ import { Product } from 'app/product';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
+  products:Product[];
 
   constructor() { }
 
